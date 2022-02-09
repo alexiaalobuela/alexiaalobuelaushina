@@ -3,9 +3,21 @@
   <title>Prueba de PHP</title>
  </head>
  <body>
- <?php 
- echo '<h1>BIENVENID@</h1>'; 
- echo '<p>Alexia Alobuela Ushiña - Despliegue</p>'
- ?>
+
+<?php
+    if(isset($_POST['enviar'])){
+        echo "<h1>BIENVENID@ ".$_POST['nombre']."</h1>";
+    }
+    else{
+        null;
+    }
+?>
+ <form action="" method="post">
+ <p>Introduzca su nombre: <input type="text" name="nombre" /></p>
+ <p><input type="submit" name="enviar" value="enviar"/></p>
+</form> 
+
+<p>Alexia Alobuela Ushiña - Despliegue</p>
+
  </body>
 </html>
