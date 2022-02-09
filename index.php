@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Primer proyecto en GitHub</title>
+  <title>Proyecto en GitHub</title>
  </head>
  <body>
 
