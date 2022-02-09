@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Prueba de PHP</title>
+  <title>Primer proyecto en GitHub</title>
  </head>
  <body>
 
